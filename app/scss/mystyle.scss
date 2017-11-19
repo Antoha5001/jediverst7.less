@@ -1,0 +1,46 @@
+@import "_library";
+//@import "_reset";
+//@import "_setka";
+@import "__bootstrap";
+@import "_fonts";
+//@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&subset=cyrillic);
+
+
+p{
+	//color: red;
+}
+body{
+	//background: green;
+	font-family: $default-font;
+	font-size: 16px;
+	line-height: 1.75;
+	opacity: 1;
+
+}
+h1{
+	font-family: fira-sans;
+	//@include border-radius(10px);
+	color: $accent;
+	text-align: center;
+}
+strong{
+	font-weight: 600;
+	color: $accent;
+}
+
+.flex1{
+	background: #00bbff;
+}
+.block{
+	/*width: 60px;*/
+	/*height: 60px;*/
+	border: 1px solid gray;
+}
+.block p{
+	line-height: 16px;
+}
+.block-green{
+	width: 10px;
+	height: 10px;
+	background: green;
+}
