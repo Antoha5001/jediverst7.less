@@ -15,14 +15,14 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!--    <link rel="stylesheet" type="text/css" href="scss/bootstrap.min.css">-->
-    <title></title>
+    <title>S&Mittler</title>
 
 	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#000">
+	<meta name="theme-color" content="#1a1a1a">
 	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#000">
+	<meta name="msapplication-navbutton-color" content="#1a1a1a">
 	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#1a1a1a">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,28 +35,11 @@
 </style>
 </head>
 <body>
-  <div class="container"  style="border: 1px solid black">
-    <div class="row">
-      <div class="col col-lg-2" style="border: 1px solid black">
-		  <div class="d-flex flex1">123</div>
-    	<p>Lorem ipsum dolor sit amet.</p></div>
-      <div class="col col-lg-6 d-flex justify-content-between" style="border: 1px solid black">
-		  <div class="block d-flex justify-content-center align-items-center"><div class="block-green"></div></div>
-		  <div class="block"><p>2</p></div>
-		  <div class="block"><p>3</p></div>
-		  <div class="block"><p>45</p></div>
-	  </div>
-    </div>
-	  <div class="row">
-		  <div class="col col-lg-12">
-			  <h1>Заголовок</h1>
-		  </div>
-		  <div class="col col-lg-12">
-			  <p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipisicing elit. Accusantium amet aspernatur dolor error
-				  eveniet exercitationem fugiat iusto maxime minima nemo nobis officia perspiciatis placeat quaerat quis repudiandae sapiente, sunt, tenetur velit vero voluptas voluptate voluptatem, voluptatum. Accusantium adipisci alias aperiam aspernatur autem beatae blanditiis commodi corporis delectus dicta doloribus esse fugiat hic, incidunt, ipsa ipsum labore laborum nemo nesciunt nostrum nulla officiis perspiciatis quae quasi qui quibusdam quod quos recusandae rem repellat sapiente similique soluta, sunt ut voluptas voluptate voluptatibus. Asperiores aspernatur beatae culpa iusto obcaecati praesentium vitae voluptatibus. Aut dolore itaque omnis quaerat. Dolore eaque et labore maiores tempora?</p>
-		  </div>
-	  </div>
-  </div>
+<div id="my-page">
+	<div id="my-header">1</div>
+	<div id="my-content">2</div>
+	<div id="my-footer">3</div>
+</div>
 
 <!--<script type="text/javascript" src="script/bootstrap.min.js"></script>-->
   <link rel="stylesheet" type="text/css" href="css/mystyle.min.css">

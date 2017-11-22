@@ -19,6 +19,7 @@ var gulp           = require('gulp'),
 //Плагины проекта
 var plugins = [
 	'app/script/jquery.js',
+	'app/script/mmenu/js/jquery.mmenu.all.min.js',
 	'app/script/tether.min.js',
 	'app/script/bootstrap.min.js',
 	'app/script/common.min.js' // Всегда в конце
