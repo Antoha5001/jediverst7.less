@@ -1,10 +1,13 @@
 @import "_library";
 @import "../script/mmenu/css/jquery.mmenu.all";
+@import "../css/font-awesome.min";
+@import "../scss/css-hamburgers/hamburgers";
 //@import "_reset";
 //@import "_setka";
 @import "__bootstrap";
 @import "_fonts";
 //@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&subset=cyrillic);
+
 
 
 p{
@@ -16,7 +19,7 @@ body{
 	font-size: 16px;
 	line-height: 1.75;
 	opacity: 1;
-
+	min-width: 320px;
 }
 h1{
 	font-family: fira-sans;
@@ -37,6 +40,14 @@ strong{
 	/*height: 60px;*/
 	border: 1px solid gray;
 }
+section, header{
+	position: relative;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+section{
+	background-color: #fff;
+}
 .block p{
 	line-height: 16px;
 }
@@ -44,4 +55,43 @@ strong{
 	width: 10px;
 	height: 10px;
 	background: green;
+}
+.is-home{
+	.site-header{
+		min-height: 700px;
+		height: 100vh;
+		background-color: $dark;
+	}
+
+}
+
+.top-line{
+	height: 44px;
+	background-position: center;
+	padding-top: 40px;
+	position: absolute;
+	width:100%;
+	z-index: 1;
+	color: #fff;
+}
+.logo {
+	//display: inline-block;
+	img{
+		width:125px;
+		height:auto;
+		margin-left:45px;
+	}
+}
+.phone{
+	font-family: fira-sans;
+	white-space: nowrap;
+	position: absolute;
+	top: 42px;
+	right: 85px;
+	//display: inline-block;
+	font-size: 22px;
+	.fa{
+		color: #555;
+		margin-right: 5px;
+	}
 }
