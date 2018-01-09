@@ -45,6 +45,7 @@ section, header{
 	position: relative;
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-position: center;
 }
 section{
 	background-color: #fff;
@@ -96,3 +97,32 @@ section{
 		margin-right: 5px;
 	}
 }
+
+.img-resposive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.hamburger{
+	position: absolute;
+	right: 0px;
+	top:32px;
+	color: #fff;
+
+}
+.hamburger-box{
+	width: 34px;
+}
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before{
+	background-color: #fff;
+	width: 34px;
+	border-radius:0 ;
+	height: 2px;
+}
+
+
+
+
+
